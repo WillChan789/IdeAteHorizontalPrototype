@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IdeAtePrototype.Properties
+namespace IdeAtePrototype2.Properties
 {
 
 
