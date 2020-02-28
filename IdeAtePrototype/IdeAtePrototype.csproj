@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="dining_together_screen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="dining_together_screen.Designer.cs">
+      <DependentUpon>dining_together_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="start_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="start_screen.Designer.cs">
+      <DependentUpon>start_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_screen.Designer.cs">
+      <DependentUpon>main_screen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="dining_together_screen.resx">
+      <DependentUpon>dining_together_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_screen.resx">
+      <DependentUpon>main_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start_screen.resx">
+      <DependentUpon>start_screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

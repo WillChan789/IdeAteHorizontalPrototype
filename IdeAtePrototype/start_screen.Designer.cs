@@ -1,6 +1,6 @@
 ﻿namespace IdeAtePrototype
 {
-    partial class Form1
+    partial class start_screen
     {
         /// <summary>
         /// Required designer variable.

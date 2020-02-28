@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace IdeAtePrototype
 {
-    public partial class Form1 : Form
+    public partial class start_screen : Form
     {
-        public Form1()
+        public start_screen()
         {
             InitializeComponent();
         }
